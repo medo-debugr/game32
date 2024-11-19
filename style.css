@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('https://i.postimg.cc/G3qs4fPM/1000015237.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+canvas {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid #333;
+}
+
+#restartButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
